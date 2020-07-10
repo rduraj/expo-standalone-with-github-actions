@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "expoGithubActionsBuild",
+    "slug": "expoGithubActionsBuild",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "pl.rduraj.expoSample",
+      "versionCode": 1
+    },
+    "ios": {
+      "bundleIdentifier": "pl.rduraj.expo-sample",
+      "supportsTablet": true
+    }
+  }
+}

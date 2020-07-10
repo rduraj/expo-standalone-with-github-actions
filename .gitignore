@@ -1,0 +1,22 @@
+.expo
+.expo-shared
+dist
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.keystore
+*.apk
+*.mobileprovision
+*.orig.*
+web-build/
+web-report/
+
+# secrets
+# secrets/
+!secrets/*.gpg
+
+# macOS
+.DS_Store
+node_modules
